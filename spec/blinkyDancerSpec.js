@@ -1,7 +1,7 @@
 describe("blinkyDancer", function() {
 
   var blinkyDancer;
-  var timeBetweenSteps = 100;
+  var timeBetweenSteps = 100; // initially 100ms
   var clock;
 
   beforeEach(function() {
