@@ -3,13 +3,17 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  /*background-color:#444;*/
+  background-image: url(src/DanceFloor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-size: 18px;
+  overflow: hidden;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .lineUpButton{
   padding:5px 12px;
   float:right;
 }
@@ -27,8 +31,11 @@ body, a:link, a:visited, a:active{
 }
 
 .android {
-  //border:10px solid green;
   width: 100px;
   height: 100px;
+  position:absolute;
+}
+
+.hansen {
   position:absolute;
 }
